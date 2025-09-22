@@ -1,0 +1,26 @@
+# Top-most EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 100
+tab_width = 2
+ij_formatter_off_tag = @formatter:off
+ij_formatter_on_tag = @formatter:on
+ij_formatter_tags_enabled = true
+ij_smart_tabs = false
+
+# Dart files
+[*.dart]
+indent_style = space
+indent_size = 2
+tab_width = 2
+max_line_length = 80
+insert_final_newline = true
+trim_trailing_whitespace = true
